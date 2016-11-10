@@ -1,0 +1,2 @@
+login@mail.ru:pass
+login@yandex.ru:pass
