@@ -5,14 +5,14 @@
 
 ## SMS
 Поддержка 8-ми сервисов SMS-приёмников:
-•	sms-reg.com
-•	simsms.org
-•	sms-activate.ru
-•	smsvk.ru
-•	sms-area.org
-•	onlinesim.ru
-•	smslike.ru
-•	smsonline-24.com
+* sms-reg.com
+* simsms.org
+* sms-activate.ru
+* smsvk.ru
+* sms-area.org
+* onlinesim.ru
+* smslike.ru
+* smsonline-24.com
 Автоматическое переключение сервисов при нулевом балансе, отсутствии/замене номеров, ошибках.
 
 ## Фото
