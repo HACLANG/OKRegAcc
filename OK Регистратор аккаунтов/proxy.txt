@@ -1,0 +1,3 @@
+IP:PORT
+LOGIN:PASSWORD@IP:PORT - с авторизацией по логину и паролю
+Socks5://LOGIN:PASSWORD@IP:PORT - соксы с авторизацией по логину и паролю
