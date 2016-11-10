@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>OkRegAcc by MANDISON</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">OkRegAcc</h1>
+      <h2 class="project-tagline">Регистратор аккаунтов социальной сети Одноклассники. Версия для ZennoPoster/ZennoBox</h2>
+      <a href="https://github.com/MANDISON/OKRegAcc" class="btn">View on GitHub</a>
+      <a href="https://github.com/MANDISON/OKRegAcc/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/MANDISON/OKRegAcc/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h2>
+<a id="okregacc" class="anchor" href="#okregacc" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>OKRegAcc</h2>
+
+<p>Регистратор аккаунтов Одноклассники версия под ZennoPoster/ZennoBox</p>
+
+<h1>
+<a id="Обзор-функционала-шаблона-регистрации" class="anchor" href="#%D0%9E%D0%B1%D0%B7%D0%BE%D1%80-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%B0-%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%B0-%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D0%B8" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Обзор функционала шаблона регистрации</h1>
+
+<h2>
+<a id="sms" class="anchor" href="#sms" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>SMS</h2>
+
+<p>Поддержка 8-ми сервисов SMS-приёмников:</p>
+
+<ul>
+<li>sms-reg.com</li>
+<li>simsms.org</li>
+<li>sms-activate.ru</li>
+<li>smsvk.ru</li>
+<li>sms-area.org</li>
+<li>onlinesim.ru</li>
+<li>smslike.ru</li>
+<li>smsonline-24.com</li>
+</ul>
+
+<p>Автоматическое переключение сервисов при нулевом балансе, отсутствии/замене номеров, ошибках.</p>
+
+<h2>
+<a id="Фото" class="anchor" href="#%D0%A4%D0%BE%D1%82%D0%BE" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Фото</h2>
+
+<ul>
+<li>Добавление одной фотографии из общей папки или заливка целого альбома из подпапки. </li>
+<li>Возможность удалить фото/альбом после отработки.</li>
+<li>Добавление описание к фотографиям в том числе с ссылками(макрос {LINK}). Предусмотрено сохранение ссылок к фото для дальнейшим спамных методов.</li>
+<li>Установка фотографий в качестве главной.</li>
+</ul>
+
+<h2>
+<a id="Группы" class="anchor" href="#%D0%93%D1%80%D1%83%D0%BF%D0%BF%D1%8B" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Группы</h2>
+
+<ul>
+<li>Добавление в список групп(по id). В сколько групп добавляемся каждым аккаунтом можно выбрать.</li>
+</ul>
+
+<h2>
+<a id="Публичность" class="anchor" href="#%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D1%81%D1%82%D1%8C" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Публичность</h2>
+
+<ul>
+<li>Перенесены абсолютно все настройки публичности со страницы ok.ru/settings/privacy. </li>
+</ul>
+
+<h2>
+<a id="Статусы" class="anchor" href="#%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81%D1%8B" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Статусы</h2>
+
+<ul>
+<li>Добавление статусов с возможностью подтянуть внешнюю ссылку. Сколько запостить статусов можно выбрать.</li>
+</ul>
+
+<h2>
+<a id="Доп-возможности" class="anchor" href="#%D0%94%D0%BE%D0%BF-%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%B8" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Доп. возможности</h2>
+
+<ul>
+<li>Установка своего юзер-агента.</li>
+<li>Сохранение профиля.</li>
+<li>Триггер после создания аккаунта. В данном случае – это создание файла. Будет полезно для тех, кто меняет ip адрес после каждой регистрации.</li>
+<li>Список прокси из файла.</li>
+<li>Установка емейла и подтверждение его.</li>
+<li>Настраиваемый формат файла результата с помощью макросов.</li>
+</ul>
+
+<h3>
+<a id="Значительным-преимуществом-данного-шаблона-служит-перенос-основных-функций-по-заполнению-аккаунта-добавлено-фото-вступление-в-группы-установка-статусов-и-настроек-публичности-с-браузерного-выполнения-на-get-post-запросы-Таким-образом-экономится-время-и-повышается-стабильность-функционала-от-возможных-изменений-на-сайте-или-проблем-с-прокси" class="anchor" href="#%D0%97%D0%BD%D0%B0%D1%87%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%BC-%D0%BF%D1%80%D0%B5%D0%B8%D0%BC%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE%D0%BC-%D0%B4%D0%B0%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE-%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%B0-%D1%81%D0%BB%D1%83%D0%B6%D0%B8%D1%82-%D0%BF%D0%B5%D1%80%D0%B5%D0%BD%D0%BE%D1%81-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D1%85-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B9-%D0%BF%D0%BE-%D0%B7%D0%B0%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D1%8E-%D0%B0%D0%BA%D0%BA%D0%B0%D1%83%D0%BD%D1%82%D0%B0-%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BE-%D1%84%D0%BE%D1%82%D0%BE-%D0%B2%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B2-%D0%B3%D1%80%D1%83%D0%BF%D0%BF%D1%8B-%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-%D1%81%D1%82%D0%B0%D1%82%D1%83%D1%81%D0%BE%D0%B2-%D0%B8-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BA-%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D1%81%D1%82%D0%B8-%D1%81-%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80%D0%BD%D0%BE%D0%B3%D0%BE-%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BD%D0%B0-get-post-%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%D1%8B-%D0%A2%D0%B0%D0%BA%D0%B8%D0%BC-%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%BC-%D1%8D%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D1%82%D1%81%D1%8F-%D0%B2%D1%80%D0%B5%D0%BC%D1%8F-%D0%B8-%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B0%D0%B5%D1%82%D1%81%D1%8F-%D1%81%D1%82%D0%B0%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%B0-%D0%BE%D1%82-%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D1%8B%D1%85-%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B9-%D0%BD%D0%B0-%D1%81%D0%B0%D0%B9%D1%82%D0%B5-%D0%B8%D0%BB%D0%B8-%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC-%D1%81-%D0%BF%D1%80%D0%BE%D0%BA%D1%81%D0%B8" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Значительным преимуществом данного шаблона служит перенос основных функций по заполнению аккаунта: добавлено фото, вступление в группы, установка статусов и настроек публичности с браузерного выполнения на GET-POST запросы. Таким образом экономится время и повышается стабильность функционала от возможных изменений на сайте или проблем с прокси.</h3>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/MANDISON/OKRegAcc">OkRegAcc</a> is maintained by <a href="https://github.com/MANDISON">MANDISON</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
