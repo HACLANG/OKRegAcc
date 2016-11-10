@@ -1,5 +1,5 @@
 # OKRegAcc
-Версия под ZennoPoster/ZennoBox
+Регистратор аккаунтов Одноклассники версия под ZennoPoster/ZennoBox
 
 #Обзор функционала шаблона регистрации
 
