@@ -1,6 +1,8 @@
 ##OKRegAcc
 Регистратор аккаунтов Одноклассники версия под ZennoPoster/ZennoBox
 
+![ezgif-3942001799](https://cloud.githubusercontent.com/assets/23078175/20187225/845f29b6-a784-11e6-8fe9-5b04ec1039ff.gif)
+
 #Обзор функционала шаблона регистрации
 
 ## SMS
