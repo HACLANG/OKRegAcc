@@ -1,6 +1,9 @@
 ##OKRegAcc
 Регистратор аккаунтов Одноклассники версия под ZennoPoster/ZennoBox
 
+* [Страница покупки версии ZennoPoster](http://www.oplata.info/asp/pay_wm.asp?id_d=2224864&lang=ru-RU)
+* [Страница покупки версии ZennoBox](http://www.oplata.info/asp/pay_wm.asp?id_d=2223506&lang=ru-RU)
+
 ![ezgif-3942001799](https://cloud.githubusercontent.com/assets/23078175/20187225/845f29b6-a784-11e6-8fe9-5b04ec1039ff.gif)
 
 #Обзор функционала:
@@ -43,4 +46,5 @@
 
 ### Значительным преимуществом данного шаблона служит перенос основных функций по заполнению аккаунта: добавлено фото, вступление в группы, установка статусов и настроек публичности с браузерного выполнения на GET-POST запросы. Таким образом экономится время и повышается стабильность функционала от возможных изменений на сайте или проблем с прокси.
 
-
+* [Страница покупки версии ZennoPoster](http://www.oplata.info/asp/pay_wm.asp?id_d=2224864&lang=ru-RU)
+* [Страница покупки версии ZennoBox](http://www.oplata.info/asp/pay_wm.asp?id_d=2223506&lang=ru-RU)
