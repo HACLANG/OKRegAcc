@@ -45,5 +45,7 @@
 * Установка емейла и подтверждение его.
 * Настраиваемый формат файла результата с помощью макросов.
 
+## Приобрести шаблон
+
 * [Страница покупки версии ZennoPoster](http://www.oplata.info/asp/pay_wm.asp?id_d=2224864&lang=ru-RU)
 * [Страница покупки версии ZennoBox](http://www.oplata.info/asp/pay_wm.asp?id_d=2223506&lang=ru-RU)
