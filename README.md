@@ -1,4 +1,4 @@
-##OKRegAcc
+## OKRegAcc
 Регистратор аккаунтов Одноклассники версия под ZennoPoster/ZennoBox
 
 * [Страница покупки версии ZennoPoster](http://www.oplata.info/asp/pay_wm.asp?id_d=2224864&lang=ru-RU)
